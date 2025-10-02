@@ -1,4 +1,6 @@
-from classes import Account, AccountType, Currency, User
+from classes.account import Account, AccountType
+from classes.currency import Currency
+from classes.user import User
 
 u = User("Kyle", Currency.EUR)
 
